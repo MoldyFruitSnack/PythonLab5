@@ -17,6 +17,7 @@ print(decimal_to_binary(10))   # "1010"
 print(decimal_to_binary(255))  # "11111111"
 print(decimal_to_binary(1))    # "1"
 
+
 print(binary_to_decimal("1010"))      # 10
 print(binary_to_decimal("11111111"))  # 255
 print(binary_to_decimal("1"))         # 1
