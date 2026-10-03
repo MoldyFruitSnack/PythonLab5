@@ -10,13 +10,13 @@ def binary_to_decimal(b):
     return 2**place * int(b[0]) + binary_to_decimal(b.removeprefix(b[0]))
 
 
+
 print(decimal_to_binary(10))
 
 # Test cases
 print(decimal_to_binary(10))   # "1010"
 print(decimal_to_binary(255))  # "11111111"
 print(decimal_to_binary(1))    # "1"
-
 
 print(binary_to_decimal("1010"))      # 10
 print(binary_to_decimal("11111111"))  # 255
